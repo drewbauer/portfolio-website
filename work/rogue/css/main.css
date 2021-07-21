@@ -1,0 +1,123 @@
+/****** Base Styles ******/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****** Grid ******/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/****** Header Section ******/
+h1 {
+    font-size: 30px;
+    line-height: 23px;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding-top: 37px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+nav ul li a {
+    color: #77a466; 
+    text-decoration: none;
+ 
+}
+
+/****** Main Image ******/
+#main-image {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+/****** Top Section ******/
+#top-section h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#top-section p {
+    padding-bottom: 30px;
+}
+
+/****** Bottom Section ******/
+#bottom-section .full-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding-top: 5px;
+}
+
+#contact, #reviews {
+    border-left: 1px solid #dedbdc;
+    height: 210px;
+    box-sizing: border-box;
+}
+
+#specials p {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#contact p, #reviews p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#reviews h3, #reviews p, #contact h3, #contact p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/****** Footer ******/
+footer{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+}
